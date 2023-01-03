@@ -1,0 +1,234 @@
+:root {
+    --font-family-bold: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: var(--font-family-bold);
+}
+
+header {
+    height: 768px;
+    background-color: #fff;
+}
+
+.container-header {
+    display: table;
+    width: 1445px; 
+    margin: 0 auto; 
+    padding-top: 33px;
+}
+
+.container-header .navigation-block {
+    padding-bottom: 33px;
+    margin-bottom: 33px;
+    border-bottom: 1px solid #828282;
+}
+
+.container-header .navigation-block ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.container-header .navigation-block ul li a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container-header .navigation-block ul li + li a {
+    color: #828282;
+}
+
+.container-header .list-item-1 a {
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+}
+
+.content-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 49.67px;
+}
+
+.container-header .container-img img {
+    width: 1445px;
+}
+
+.content-description .name-designer {
+    font-size: 47.3392px;
+}
+
+.container-header .ru-eng {
+    width: 100px;
+    height: 100px;
+    transform: rotate(270deg);
+    position: relative;
+    left: 80px;
+    font-weight: bold;
+    color: #828282
+}
+
+.container-header .ru-eng span {
+    color: #070707;
+}
+
+.container-about-me {
+    margin-top: 204.06px;
+    background-color: #F6F6F6;
+    text-align: center;
+    height: 506px;
+}
+
+.container-about-me .description {
+    padding-top: 120.25px;
+}
+
+.container-about-me .description h2 {
+    font-weight: bold;
+    margin-bottom: 17.69px;
+    font-size: 34px;
+}
+
+.container-about-me p + p {
+   margin-top: 43.6px;
+}
+
+.container-skills {
+    text-align: center;
+    height: 610px;
+    min-width: 1445px; 
+    background-color: #fff;
+}
+
+.container-skills .container-document {
+    padding-top: 91px;
+}
+
+.container-skills .programs-container {
+    display: flex;
+}
+
+.container-skills .description {
+    margin-bottom: 83.49px;
+}
+
+.container-skills .description h2 {
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 69.1px;
+}
+
+.container-skills .programs-container {
+    display: flex;
+    width: 1445px; 
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.container-skills .programs-container .program img {
+    margin-bottom: 24.21px;
+}
+
+.container-skills .programs-container section .program-name {
+    margin-bottom: 40.41px;
+    color: #828282;
+    font-size: 14px;
+}
+
+.container-skills .programs-container section .evaluations {
+    background: url('img__new-project/black-star.png') no-repeat,
+                url('img__new-project/black-star.png') 30px 0px no-repeat,
+                url('img__new-project/black-star.png') 60px 0px no-repeat,
+                url('img__new-project/black-star.png') 90px 0px no-repeat,
+                url('img__new-project/white-star.png') 120px 0px no-repeat;
+    height: 20px;
+    width: 140px;
+}
+
+.container-skills .programs-container section .evaluations-separate {
+    background: url('img__new-project/black-star.png') no-repeat,
+                url('img__new-project/black-star.png') 30px 0px no-repeat,
+                url('img__new-project/black-star.png') 60px 0px no-repeat,
+                url('img__new-project/white-star.png') 90px 0px no-repeat,
+                url('img__new-project/white-star.png') 120px 0px no-repeat;
+    height: 20px;
+    width: 140px;
+}
+
+.container-portfolio {
+    text-align: center;
+    padding-top: 113px;
+    background-color: #f6f6f6;
+}
+
+.container-portfolio .online-fashion-store, .container-portfolio  .reebok-store-concept, .container-portfolio .braun-landing-page-concept {
+    padding-bottom: 100px;
+}
+
+.container-portfolio .online-fashion-store h2 {
+    margin-bottom: 47px;
+    color: #070707;
+    font-size: 34px;
+}
+
+.container-portfolio img {
+    margin-bottom: 45px;
+}
+
+.container-portfolio .online-fashion-store img, .container-portfolio  .reebok-store-concept img, .container-portfolio .braun-landing-page-concept img {
+    width: 1445px;
+}
+
+.container-portfolio .button-link a {
+    text-decoration: none;
+    border-bottom: 1px solid #070707;
+    color: #070707;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #fff;
+    padding-top: 113px;
+    text-align: center;
+}
+
+footer .block-description {
+    margin-bottom: 86px;
+}
+
+footer .block-description h2 {
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+footer .block-description p {
+    margin-bottom: 30px;
+    font-size: #070707;
+}
+
+footer .block-description a button {
+    width: 180.5px;
+    height: 42px;
+    background-color: #070707;
+    color: #fff;
+    border-radius: 25px;
+}
+
+footer .block-social-media {
+    padding-bottom: 123.19px;
+}
+
+footer .block-social-media img {
+    margin-bottom: 46px;
+}
+
+footer .block-social-media span {
+    color: #828282;
+    font-size: 14px;
+}
